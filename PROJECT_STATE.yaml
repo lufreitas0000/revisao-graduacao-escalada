@@ -1,0 +1,19 @@
+project: revisao-graduacao-escalada
+version: 3.0.0-dev
+status: wave_1_architecture
+active_wave: 2
+decisions_locked:
+  color_scale:
+    - "Branco-Vazado (VB/V0)"
+    - "Branco (V0/V1)"
+    - "Amarela (V1/V2)"
+    - "Verde (V2/V3)"
+    - "Azul (V3/V4)"
+    - "Vermelho (V4/V5)"
+    - "Preto (V5/V6)"
+    - "Prata (V6/V7)"
+    - "Dourado (V7/V8+)"
+  documents:
+    - revisao-graduacao-escalada
+    - guia_ufrn
+    - ufrn_na_cbe

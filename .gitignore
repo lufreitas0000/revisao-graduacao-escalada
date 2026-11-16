@@ -1,0 +1,22 @@
+# LaTeX build & cache
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+build/
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Local raw/large files if needed
+.env
