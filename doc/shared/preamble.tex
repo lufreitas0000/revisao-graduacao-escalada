@@ -1,9 +1,43 @@
-% Preâmbulo compartilhado dos documentos
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[brazilian]{babel}
-\usepackage{xcolor}
+\usepackage{charter}
+\usepackage[scaled=0.95]{helvet}
+\usepackage{courier}
+\usepackage[a4paper,top=24mm,bottom=24mm,left=22mm,right=22mm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[table]{xcolor}
+\usepackage{booktabs,tabularx,array,longtable}
 \usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{soul}
 \usepackage{hyperref}
+
 \input{../shared/version.tex}
 \input{../shared/macros.tex}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    citecolor=primary,
+    urlcolor=primary,
+    pdftitle={Revisão em Sistemas de Graduação de Escalada: Normas, Aplicação e Fundamentos},
+    pdfauthor={Supervisão: Lu Freitas | Pipeline Multi-Agente de IA (\docversion)},
+    pdfsubject={Documento de Referência Técnica Pública sobre Graduação de Escalada}
+}
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\do\/\do\-\do\_\do\.\do\?\do\&\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9}
+\makeatother
+
+\renewcommand{\contentsname}{Sumário}
+\renewcommand{\refname}{Referências Bibliográficas e Documentais Verificadas}
+\renewcommand{\tablename}{Tabela}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\abstractname}{Resumo}
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+\setlength{\parskip}{5.5pt plus 1.5pt minus 1pt}
+\setlength{\parindent}{0pt}

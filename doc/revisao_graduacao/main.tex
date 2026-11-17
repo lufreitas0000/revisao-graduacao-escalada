@@ -1,0 +1,84 @@
+% ==============================================================================
+% METADADOS DE VERSIONAMENTO E GOVERNANÇA DO PROJETO
+% ==============================================================================
+% Projeto: Revisão em Sistemas de Graduação em Escalada
+% Arquivo: doc/revisao_graduacao/main.tex
+% Status: Documento de Referência Técnica Pública (Acesso Aberto)
+% Pipeline: Coleta inicial via Google Gemini Flash 3.8 (Deep Research) +
+%           Refatoração, Auditoria de Fontes e Tipografia sob supervisão de Lu Freitas.
+% ==============================================================================
+
+\documentclass[11pt,a4paper]{article}
+\input{../shared/preamble.tex}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{secondary}Revisão em Sistemas de Graduação de Escalada}
+\fancyhead[R]{\small\color{secondary}Normas, Aplicação e Fundamentos (\docversion)}
+\fancyfoot[C]{\small\color{secondary}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{\vspace{-1.6cm}\LARGE\textbf{\color{primary}Revisão em Sistemas de Graduação de Escalada}\\
+\vspace{0.25cm}\Large\color{secondary}Normas, Aplicação e Fundamentos}
+
+\author{\small\textbf{Supervisão Editorial e Design:} Lu Freitas\\
+\footnotesize\color{secondary}Pesquisa, Estruturação e Auditoria Bibliográfica: Pipeline Multi-Agente de IA\\
+\footnotesize\color{secondary}\textit{Documento de Referência Pública --- \docversion}}
+\date{\small \docdate}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Este documento consolida uma revisão técnica, normativa e aplicada sobre sistemas de graduação de escalada em rocha e ginásios. Demonstra-se como federações internacionais (\textit{World Climbing}, UIAA, IRCRA), entidades nacionais (CBME e CBEscalada) e protocolos de \textit{route-setting} (Matriz RIC, ergonomia e \textit{forerunning}) reduzem a subjetividade dos graus. O texto principal organiza-se em três capítulos — (1) normas oficiais e redução da subjetividade, (2) aplicação prática em ginásios e (3) matrizes de equivalência e circuitos — seguidos de conclusão e três apêndices autocontidos (história das escalas, método científico IRCRA/RIC e glossário técnico).
+\end{abstract}
+
+\vspace{0.2cm}
+\tableofcontents
+\newpage
+
+\section*{Introdução e Governança Metodológica}
+\addcontentsline{toc}{section}{Introdução e Governança Metodológica}
+
+A atribuição de graus na escalada cumpre três funções simultâneas:
+\begin{enumerate}
+    \item orientar a segurança do praticante diante do risco objetivo;
+    \item fornecer uma métrica objetiva de progressão atlética;
+    \item permitir comunicação padronizada entre diferentes regiões e ginásios.
+\end{enumerate}
+Sem compreensão da origem dessas escalas e dos métodos modernos de \textit{route-setting}, muros indoor tendem a reproduzir distorções de dificuldade e frustração pedagógica. Este documento público consolida o referencial técnico aplicável a ginásios e associações no Brasil, mantendo a numeração das seções alinhada diretamente aos três capítulos principais.
+
+\subsection*{Uso Honesto de IA, Versionamento e Mitigação de Alucinações}
+\begin{enumerate}
+    \item \textbf{Papéis}: \textbf{Lu Freitas} atua na supervisão geral, design editorial e validação narrativa; sistemas de IA executam pesquisa documental, estruturação de tabelas e codificação \LaTeX{}.
+    \item \textbf{Pipeline e Versionamento}: O levantamento inicial de fontes foi realizado pelo \textbf{Google Gemini Flash 3.8} (\textit{Deep Research}). A partir da v2.0, agentes independentes auditam documentos primários e operam sob controle de versão semântico (\texttt{\docversion}) com registro rastreável no código-fonte.
+    \item \textbf{Rastreabilidade}: O texto distingue explicitamente \textbf{Norma Literal/Citação Direta} (com página e seção), \textbf{Paráfrase Técnica} e \textbf{Interpretação Analítica}, omitindo qualquer dado não verificável nas fontes lidas.
+\end{enumerate}
+
+\clearpage
+\input{sections/cap1_normas.tex}
+
+\clearpage
+\input{sections/cap2_aplicacao.tex}
+
+\clearpage
+\input{sections/cap3_matrizes.tex}
+
+\clearpage
+\input{sections/conclusao.tex}
+
+\appendix
+\clearpage
+\input{appendices/ap_a_historia.tex}
+
+\clearpage
+\input{appendices/ap_b_ircra_ric.tex}
+
+\clearpage
+\input{appendices/ap_c_glossario.tex}
+
+\clearpage
+\input{sections/referencias.tex}
+
+\end{document}

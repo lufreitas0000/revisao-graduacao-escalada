@@ -1,0 +1,19 @@
+% EDITORIAL QUESTION: Como comparar metodologicamente as escalas IRCRA e RIC e por que não existem benchmarks físicos universais isolados para valores pontuais?
+\section{Escalas IRCRA, RIC e Limites do Método Científico}
+
+\subsection*{B.1 Comparação Estrutural: IRCRA vs. RIC}
+% SOURCE [VERIFIED_PRIMARY]: Draper et al. (2016); PMC11881084 (2024) (https://pmc.ncbi.nlm.nih.gov/articles/PMC11881084/).
+Embora frequentemente citadas juntas em estudos recentes, \textbf{IRCRA} e \textbf{RIC} medem grandezas ortogonais:
+\begin{itemize}
+    \item \textbf{IRCRA (\textit{Reporting Scale})}: Escala ordinal/quase-linear unidimensional (valores inteiros de 1 a 32/39) desenhada para agregar dados estatísticos de dificuldade entre escalas alfanuméricas heterogêneas \cite{ircra_draper, pmc_ric_study}.
+    \item \textbf{RIC (\textit{Risk, Intensity, Complexity})}: Vetor tridimensional intra-grau (métricas de 1 a 5) usado por equipes de \textit{setters} para decompor o perfil qualitativo de um problema dentro de um mesmo grau nominal \cite{pmc_ric_study, godoffe_routesetting}.
+\end{itemize}
+
+\subsection*{B.2 Ausência de Padrão Físico Universal Isolado vs. Painéis Padronizados}
+% SOURCE [VERIFIED_PRIMARY]: PMC11881084 (2024); Rock Climbing Realms (2025) (https://rockclimbingrealms.com/the-setters-secret-how-gym-climb-grades-emerge/).
+Uma questão metodológica central é se existem testes físicos universais que fixem isoladamente valores como ``IRCRA 10'' ou ``$I = 2$'' na escala RIC. A revisão da literatura (\cite{pmc_ric_study, rockrealms_setting}) confirma que \textbf{não existe padrão físico universal isolado independente de contexto}:
+\begin{enumerate}
+    \item O valor $I = 2$ na RIC é estritamente \textbf{relativo} ao público e ao consenso da equipe de \textit{setting} local, servindo para balancear variedade intra-grau, e não como unidade absoluta de força em newtons \cite{pmc_ric_study}.
+    \item Na prática empírica e em modelos de aprendizado de máquina, a única padronização física transnacional de referência ocorre por meio de \textbf{placas de treino com geometria e agarras fixas} — como o \textbf{MoonBoard} (grade fixa de 198 posições com mais de 30.000 problemas registrados) e o \textbf{Kilter Board} — onde o consenso de milhares de repetições calibra o grau sobre um \textit{hardware} invariante \cite{pmc_ric_study, rockrealms_setting}.
+    \item Testes laboratoriais isolados (como suspensão máxima em reglete de 20\,mm) correlacionam-se estatisticamente com o nível IRCRA do atleta, mas não determinam sozinhos o grau de uma via por omitirem complexidade motora ($C$) e risco ($R$) \cite{rpubs_finger, pmc_ric_study}.
+\end{enumerate}

@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "chart_01_peak_experiences",
+    "file": "chart_01_peak_experiences.jpg",
+    "source_page": "https://www.peakexperiences.com/peak-bouldering-scale",
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5876a2575016e15c31331ed0/d913f288-d511-42b3-adc8-3d00f9ea033d/Peak+-+Bouldering+Scale+-+2023+.jpg",
+    "width": 2250,
+    "height": 2769,
+    "bytes": 440640,
+    "sha256": "372139bb005bb729f487a03c58946cc8f4c8b178e2208aa250796820d03b250f"
+  },
+  {
+    "slug": "chart_02_the_front",
+    "file": "chart_02_the_front.jpg",
+    "source_page": "https://www.climbing.com/culture-climbing/when-did-climbing-gyms-get-too-scared-to-grade-their-own-boulders/",
+    "image_url": "https://cdn.climbing.com/wp-content/uploads/2026/08/Bouldering-Grading-System.jpg",
+    "width": 2488,
+    "height": 1400,
+    "bytes": 523937,
+    "sha256": "867dffc0506bfd0bbe69509d79a9ba3a1cc646ffc33fb81271b487cb66d0d182"
+  },
+  {
+    "slug": "chart_05_rockfish",
+    "file": "chart_05_rockfish.png",
+    "source_page": "https://rockfishclimbing.com/getting-started/",
+    "image_url": "https://rockfishclimbing.com/wp-content/uploads/2024/09/Rockfish-Logo-Black-hztl_800x239.png",
+    "width": 800,
+    "height": 239,
+    "bytes": 124424,
+    "sha256": "0298bc31da8683f292b1cb98fa7e11fe7e9d221bd1ee11d8299a5830cdc69004"
+  }
+]
