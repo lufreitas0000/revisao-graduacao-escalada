@@ -13,20 +13,50 @@
     "slug": "chart_02_the_front",
     "file": "chart_02_the_front.jpg",
     "source_page": "https://www.climbing.com/culture-climbing/when-did-climbing-gyms-get-too-scared-to-grade-their-own-boulders/",
-    "image_url": "https://cdn.climbing.com/wp-content/uploads/2026/08/Bouldering-Grading-System.jpg",
-    "width": 2488,
-    "height": 1400,
-    "bytes": 523937,
-    "sha256": "867dffc0506bfd0bbe69509d79a9ba3a1cc646ffc33fb81271b487cb66d0d182"
+    "image_url": "https://cdn.climbing.com/wp-content/uploads/2026/08/Meme1.jpg?width=1080&auto=webp&quality=75&fit=cover",
+    "width": 503,
+    "height": 497,
+    "bytes": 29379,
+    "sha256": "202ee199d123c7fa8d4273c092ecbf690aa2b557ef3d367d8e58273695db2f20"
+  },
+  {
+    "slug": "chart_03_aliior_jp",
+    "file": "chart_03_aliior_jp.jpg",
+    "source_page": "https://blog.tokyoroomfinder.com/living-in-japan/bouldering-in-japan-guide/",
+    "image_url": "https://blog.tokyoroomfinder.com/wp-content/uploads/2026/01/IMG_4318-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "bytes": 108040,
+    "sha256": "4dd9c9aa892b5c9f4a9b85e44a10de49f537d0a1b26e12e98bffc3b1ff71d54d"
+  },
+  {
+    "slug": "chart_04_sportrock",
+    "file": "chart_04_sportrock.png",
+    "source_page": "https://www.climbingcrux.com/climbing-grades",
+    "image_url": "https://www.climbingcrux.com/img/grades/font-scale-grade-board-xl.webp",
+    "width": 2268,
+    "height": 3054,
+    "bytes": 5087937,
+    "sha256": "77dced9af16d616ecbcb07d91de658c617ec7b0cf3ab308e3075ba93b303b917"
   },
   {
     "slug": "chart_05_rockfish",
     "file": "chart_05_rockfish.png",
     "source_page": "https://rockfishclimbing.com/getting-started/",
-    "image_url": "https://rockfishclimbing.com/wp-content/uploads/2024/09/Rockfish-Logo-Black-hztl_800x239.png",
-    "width": 800,
-    "height": 239,
-    "bytes": 124424,
-    "sha256": "0298bc31da8683f292b1cb98fa7e11fe7e9d221bd1ee11d8299a5830cdc69004"
+    "image_url": "https://rockfishclimbing.com/wp-content/uploads/2023/03/POSTER-GRADE-BOARD-11-%C3%97-17-in-994x1536.png",
+    "width": 994,
+    "height": 1536,
+    "bytes": 283623,
+    "sha256": "ad8c1b601cc6983aaaff8f632dc8db604abc414c83fd60163d1859a53dd2b7ae"
+  },
+  {
+    "slug": "chart_06_j2_bouldering",
+    "file": "chart_06_j2_bouldering.jpg",
+    "source_page": "https://www.j2bouldering.com/boulder-circuits",
+    "image_url": "https://images.squarespace-cdn.com/content/v1/625f17f33dfb8a27b4d69211/1650399222750-4DGPV2JM4EP5AVCTHRU5/image-asset.jpeg",
+    "width": 2500,
+    "height": 1328,
+    "bytes": 180695,
+    "sha256": "e980da84137cb4c532e14bb7a9683550ace225c930686ab55cd79780377df6da"
   }
 ]

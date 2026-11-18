@@ -1,3 +1,18 @@
+schema_version: 1
+project_name: revisao-graduacao-escalada
+lifecycle: active
+active_phase: 2
+current_milestone: W2
+active_milestone:
+  id: W2
+  objective: 'Consolidate Documento 1, Guia UFRN, UFRN na CBE, reference charts, and minimalist static site.'
+  status: in_progress
+  active_tasks:
+    - id: T1
+      title: 'Commit audited reference charts & fetch script and align PG-10/UoW governance'
+      status: completed
+milestone_history: []
+
 project: revisao-graduacao-escalada
 version: 3.0.0-dev
 status: wave_2_compiled_draft
