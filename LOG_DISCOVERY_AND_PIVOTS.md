@@ -1,3 +1,6 @@
+| Date | Module/Context | Obstruction | Pivot/Resolution | Status |
+| :--- | :--- | :--- | :--- | :---: |
+
 # Log de Descobertas e Pivôs
 
 | Data | Frente | Decisão / Descoberta | Motivo / Evidência | Impacto |
