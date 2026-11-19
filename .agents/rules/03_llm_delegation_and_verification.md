@@ -1,3 +1,8 @@
+---
+trigger: model_decision
+description: Climbing guide multi-agent delegation and independent verification rules.
+---
+<!-- @LOCAL-OVERRIDE: repo-specific customization -->
 # Regra 03: Estratégia Multi-Agente e Auditoria Independente
 
 1. **Separação de papéis (`W1–W4`):**

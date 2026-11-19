@@ -1,3 +1,8 @@
+---
+trigger: glob
+globs: "**/*.py, **/pyproject.toml"
+description: Layered Python architecture (domain/services/infra/app), strict typing, and uv/pytest conventions.
+---
 <!-- @CANONICAL-RULE: DO NOT EDIT DIRECTLY. MANAGED BY project-governance -->
 # Pack: Python Quantitative Metrology & Bayesian Model Selection
 

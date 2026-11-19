@@ -1,3 +1,9 @@
+---
+trigger: glob
+globs: "**/*.tex, **/*.bib, **/*.html, **/*.css, **/*.js"
+description: Climbing guide modular LaTeX and static site standards.
+---
+<!-- @LOCAL-OVERRIDE: repo-specific customization -->
 # Regra 04: Padrões de LaTeX Modular e Site Estático
 
 1. **LaTeX:**

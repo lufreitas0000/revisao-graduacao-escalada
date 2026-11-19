@@ -1,3 +1,8 @@
+---
+trigger: model_decision
+description: Climbing guide semantic document versioning and release gates.
+---
+<!-- @LOCAL-OVERRIDE: repo-specific customization -->
 # Regra 02: Versionamento Semântico Documental e Releases
 
 1. **Fonte única de versão:** `doc/shared/version.tex` define `\newcommand{\docversion}{v3.0.0}` e `\newcommand{\docdate}{...}`. Nenhum documento declara versão manualmente.

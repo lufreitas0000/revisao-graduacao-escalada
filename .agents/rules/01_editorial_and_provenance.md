@@ -1,3 +1,8 @@
+---
+trigger: model_decision
+description: Climbing guide editorial rigor, source provenance, and anti-hallucination rules.
+---
+<!-- @LOCAL-OVERRIDE: repo-specific customization -->
 # Regra 01: Rigor Editorial, Proveniência e Mitigação de Alucinações
 
 1. **Rastreabilidade no código-fonte LaTeX:**
